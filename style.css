@@ -1,0 +1,39 @@
+.box{
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+    padding: 3px;
+    filter: blur(2px);
+}
+
+.border{
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}
+.first{
+    width: 425px;
+    height: 150px;
+    background-color: brown;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.second{
+    width: 470px;
+    height: 175px;
+    background-color: beige;
+    margin: auto;
+    margin: 0px auto 20px;
+    border-radius: 20px;
+}
+.third{
+    width: 450px;
+    height: 200px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 25px;
+}
+.first,.second,.third{
+    filter: blur(2px);
+}
